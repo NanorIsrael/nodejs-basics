@@ -5,4 +5,6 @@ const app = http.createServer((req, res) => {
   res.contentType = 'plain/text';
   res.end('Hello GVTech School! ');
 });
-app.listen(1245, "localhost", () => null);
+app.listen(1245, 'localhost', () => null);
+
+module.exports = app;
